@@ -1,0 +1,125 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Usuario {
+  id        Int      @id @default(autoincrement())
+  nombre    String
+  email     String   @unique
+  password  String
+  rol       String   @default("user") // user | admin
+  createdAt DateTime @default(now())
+
+  entradas Entrada[]
+  socios   Socio[]
+}
+
+model Jugador {
+  id           Int      @id @default(autoincrement())
+  nombre       String
+  edad         Int
+  nacionalidad String
+  posicion     String   // POR | DEF | MED | DEL
+  numero       Int      @unique
+  foto         String?  // ruta a img/ o null
+  activo       Boolean  @default(true)
+  createdAt    DateTime @default(now())
+
+  fichajes Fichaje[]
+}
+
+model StaffTecnico {
+  id          Int     @id @default(autoincrement())
+  nombre      String
+  edad        Int
+  rol         String  // DT | Asistente | PF | Médico
+  nacionalidad String
+  foto        String?
+  descripcion String?
+}
+
+model Partido {
+  id                Int      @id @default(autoincrement())
+  rival             String
+  fecha             DateTime
+  hora              String
+  estadio           String
+  competicion       String
+  local             Boolean  @default(true)
+  precioPreferencia Float    @default(15.0)
+  precioGeneral     Float    @default(10.0)
+  precioVisita      Float    @default(12.0)
+
+  entradas Entrada[]
+}
+
+model Noticia {
+  id               Int      @id @default(autoincrement())
+  titulo           String
+  resumen          String
+  contenido        String
+  fuente           String
+  url              String?
+  imagen           String?
+  categoria        String   // Partidos | Fichajes | Club | Entrevistas
+  fechaPublicacion DateTime
+  createdAt        DateTime @default(now())
+}
+
+model Entrada {
+  id          Int      @id @default(autoincrement())
+  usuarioId   Int
+  partidoId   Int
+  sector      String   // Preferencia | General | Visita
+  cantidad    Int
+  total       Float
+  codigoQr    String
+  fechaCompra DateTime @default(now())
+
+  usuario Usuario @relation(fields: [usuarioId], references: [id])
+  partido Partido @relation(fields: [partidoId], references: [id])
+
+  @@index([usuarioId])
+  @@index([partidoId])
+}
+
+model Socio {
+  id                  Int       @id @default(autoincrement())
+  usuarioId           Int       @unique
+  tipo                String    // BRONCE | PLATA | ORO
+  fechaInicio         DateTime  @default(now())
+  fechaFin            DateTime?
+  descuentoEntradas   Float     @default(0)
+  renovacionAutomatica Boolean  @default(false)
+  activo              Boolean   @default(true)
+
+  usuario Usuario @relation(fields: [usuarioId], references: [id])
+}
+
+enum TipoFichaje {
+  ALTA
+  BAJA
+}
+
+model Fichaje {
+  id            Int         @id @default(autoincrement())
+  jugadorId     Int
+  tipo          TipoFichaje
+  clubOrigen    String
+  clubDestino   String
+  tipoOperacion String      // TRASPASO | CESION | FIN_CONTRATO
+  fecha         DateTime    @default(now())
+  monto         Float?
+  descripcion   String?
+  activo        Boolean     @default(true)
+  fotoUrl       String?
+
+  jugador Jugador @relation(fields: [jugadorId], references: [id])
+
+  @@index([jugadorId])
+}

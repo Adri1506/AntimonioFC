@@ -1,0 +1,184 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "AntimonioFC AntimonioFC" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "AntimonioFC" [ref=e7]
+        - generic [ref=e8]: AntimonioFC
+      - navigation [ref=e9]:
+        - link "Inicio" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+          - generic [ref=e14]: Inicio
+        - link "Plantilla" [ref=e15] [cursor=pointer]:
+          - /url: /plantilla
+          - img [ref=e16]
+          - generic [ref=e21]: Plantilla
+        - link "Formación" [ref=e22] [cursor=pointer]:
+          - /url: /formacion
+          - img [ref=e23]
+          - generic [ref=e28]: Formación
+        - link "Noticias" [ref=e29] [cursor=pointer]:
+          - /url: /noticias
+          - img [ref=e30]
+          - generic [ref=e33]: Noticias
+        - link "Entradas" [ref=e34] [cursor=pointer]:
+          - /url: /entradas
+          - img [ref=e35]
+          - generic [ref=e37]: Entradas
+        - link "Socios" [ref=e38] [cursor=pointer]:
+          - /url: /socios
+          - img [ref=e39]
+          - generic [ref=e41]: Socios
+        - link "Fichajes" [ref=e42] [cursor=pointer]:
+          - /url: /fichajes
+          - img [ref=e43]
+          - generic [ref=e46]: Fichajes
+      - generic [ref=e47]:
+        - link "Iniciar Sesión" [ref=e48] [cursor=pointer]:
+          - /url: /login
+        - link "Hazte Socio" [ref=e49] [cursor=pointer]:
+          - /url: /socios
+  - main [ref=e50]:
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - img [ref=e53]
+        - generic [ref=e55]:
+          - heading "Hazte Socio" [level=1] [ref=e56]
+          - paragraph [ref=e57]: Elige el plan que más se adapte a ti y disfruta de beneficios exclusivos
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - generic [ref=e61]: Bronce
+            - generic [ref=e62]:
+              - generic [ref=e63]: $5
+              - text: /mes
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - img [ref=e67]
+              - generic [ref=e69]: 5% descuento en entradas
+            - listitem [ref=e70]:
+              - img [ref=e71]
+              - generic [ref=e73]: Acceso a noticias exclusivas
+            - listitem [ref=e74]:
+              - img [ref=e75]
+              - generic [ref=e77]: Carnet digital de socio
+          - button "Afiliarse" [ref=e79]
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - generic [ref=e82]: Plata
+            - generic [ref=e83]:
+              - generic [ref=e84]: $10
+              - text: /mes
+          - list [ref=e86]:
+            - listitem [ref=e87]:
+              - img [ref=e88]
+              - generic [ref=e90]: 10% descuento en entradas
+            - listitem [ref=e91]:
+              - img [ref=e92]
+              - generic [ref=e94]: Acceso a noticias exclusivas
+            - listitem [ref=e95]:
+              - img [ref=e96]
+              - generic [ref=e98]: Carnet digital de socio
+            - listitem [ref=e99]:
+              - img [ref=e100]
+              - generic [ref=e102]: Prioridad en compra de entradas
+          - button "Afiliarse" [ref=e104]
+        - generic [ref=e105]:
+          - generic [ref=e107]:
+            - img [ref=e108]
+            - text: Recomendado
+          - generic [ref=e110]:
+            - generic [ref=e111]: Oro
+            - generic [ref=e112]:
+              - generic [ref=e113]: $20
+              - text: /mes
+          - list [ref=e115]:
+            - listitem [ref=e116]:
+              - img [ref=e117]
+              - generic [ref=e119]: 20% descuento en entradas
+            - listitem [ref=e120]:
+              - img [ref=e121]
+              - generic [ref=e123]: Acceso a noticias exclusivas
+            - listitem [ref=e124]:
+              - img [ref=e125]
+              - generic [ref=e127]: Carnet digital de socio
+            - listitem [ref=e128]:
+              - img [ref=e129]
+              - generic [ref=e131]: Prioridad en compra de entradas
+            - listitem [ref=e132]:
+              - img [ref=e133]
+              - generic [ref=e135]: Contenido exclusivo del club
+            - listitem [ref=e136]:
+              - img [ref=e137]
+              - generic [ref=e139]: Invitaciones a eventos especiales
+          - button "Afiliarse" [ref=e141]
+  - contentinfo [ref=e144]:
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - heading "Club" [level=3] [ref=e148]
+          - list [ref=e149]:
+            - listitem [ref=e150]:
+              - link "Historia" [ref=e151] [cursor=pointer]:
+                - /url: /historia
+            - listitem [ref=e152]:
+              - link "Estadio" [ref=e153] [cursor=pointer]:
+                - /url: /estadio
+            - listitem [ref=e154]:
+              - link "Contacto" [ref=e155] [cursor=pointer]:
+                - /url: /contacto
+            - listitem [ref=e156]:
+              - link "Prensa" [ref=e157] [cursor=pointer]:
+                - /url: /prensa
+        - generic [ref=e158]:
+          - heading "Equipo" [level=3] [ref=e159]
+          - list [ref=e160]:
+            - listitem [ref=e161]:
+              - link "Plantilla" [ref=e162] [cursor=pointer]:
+                - /url: /plantilla
+            - listitem [ref=e163]:
+              - link "Formación" [ref=e164] [cursor=pointer]:
+                - /url: /formacion
+            - listitem [ref=e165]:
+              - link "Cuerpo Técnico" [ref=e166] [cursor=pointer]:
+                - /url: /cuerpo-tecnico
+        - generic [ref=e167]:
+          - heading "Afición" [level=3] [ref=e168]
+          - list [ref=e169]:
+            - listitem [ref=e170]:
+              - link "Entradas" [ref=e171] [cursor=pointer]:
+                - /url: /entradas
+            - listitem [ref=e172]:
+              - link "Socios" [ref=e173] [cursor=pointer]:
+                - /url: /socios
+            - listitem [ref=e174]:
+              - link "Noticias" [ref=e175] [cursor=pointer]:
+                - /url: /noticias
+        - generic [ref=e176]:
+          - heading "Legal" [level=3] [ref=e177]
+          - list [ref=e178]:
+            - listitem [ref=e179]:
+              - link "Términos y Condiciones" [ref=e180] [cursor=pointer]:
+                - /url: /terminos
+            - listitem [ref=e181]:
+              - link "Privacidad" [ref=e182] [cursor=pointer]:
+                - /url: /privacidad
+            - listitem [ref=e183]:
+              - link "Cookies" [ref=e184] [cursor=pointer]:
+                - /url: /cookies
+      - generic [ref=e185]:
+        - link "Facebook" [ref=e186] [cursor=pointer]:
+          - /url: https://facebook.com/AntimonioFC
+          - img [ref=e187]
+        - link "Instagram" [ref=e189] [cursor=pointer]:
+          - /url: https://instagram.com/AntimonioFC
+          - img [ref=e190]
+        - link "Twitter / X" [ref=e193] [cursor=pointer]:
+          - /url: https://twitter.com/AntimonioFC
+          - img [ref=e194]
+        - link "YouTube" [ref=e197] [cursor=pointer]:
+          - /url: https://youtube.com/@AntimonioFC
+          - img [ref=e198]
+      - img "AntimonioFC" [ref=e202]
+      - generic [ref=e203]: © 2026 Club Deportivo AntimonioFC. Todos los derechos reservados.

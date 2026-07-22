@@ -1,0 +1,215 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "AntimonioFC AntimonioFC" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "AntimonioFC" [ref=e7]
+        - generic [ref=e8]: AntimonioFC
+      - navigation [ref=e9]:
+        - link "Inicio" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+          - generic [ref=e14]: Inicio
+        - link "Plantilla" [ref=e15] [cursor=pointer]:
+          - /url: /plantilla
+          - img [ref=e16]
+          - generic [ref=e21]: Plantilla
+        - link "Formación" [ref=e22] [cursor=pointer]:
+          - /url: /formacion
+          - img [ref=e23]
+          - generic [ref=e28]: Formación
+        - link "Noticias" [ref=e29] [cursor=pointer]:
+          - /url: /noticias
+          - img [ref=e30]
+          - generic [ref=e33]: Noticias
+        - link "Entradas" [ref=e34] [cursor=pointer]:
+          - /url: /entradas
+          - img [ref=e35]
+          - generic [ref=e37]: Entradas
+        - link "Socios" [ref=e38] [cursor=pointer]:
+          - /url: /socios
+          - img [ref=e39]
+          - generic [ref=e41]: Socios
+        - link "Fichajes" [ref=e42] [cursor=pointer]:
+          - /url: /fichajes
+          - img [ref=e43]
+          - generic [ref=e46]: Fichajes
+      - link "Hazte Socio" [ref=e48] [cursor=pointer]:
+        - /url: /socios
+  - main [ref=e49]:
+    - generic [ref=e51]:
+      - heading "NOTICIAS" [level=1] [ref=e52]
+      - paragraph [ref=e53]: Mantente al tanto de las últimas novedades del club
+    - generic [ref=e55]:
+      - tablist "Filtrar por categoría" [ref=e57]:
+        - tab "Todas" [selected] [ref=e58]
+        - tab "Partidos" [ref=e59]
+        - tab "Fichajes" [ref=e60]
+        - tab "Club" [ref=e61]
+        - tab "Entrevistas" [ref=e62]
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - status "Loading":
+            - generic [ref=e65]: Cargando...
+          - status "Loading":
+            - generic [ref=e66]: Cargando...
+          - status "Loading":
+            - generic [ref=e67]: Cargando...
+          - status "Loading":
+            - generic [ref=e68]: Cargando...
+          - status "Loading":
+            - generic [ref=e69]: Cargando...
+          - generic:
+            - status "Loading":
+              - generic [ref=e70]: Cargando...
+            - status "Loading":
+              - generic [ref=e71]: Cargando...
+        - generic [ref=e72]:
+          - status "Loading":
+            - generic [ref=e73]: Cargando...
+          - status "Loading":
+            - generic [ref=e74]: Cargando...
+          - status "Loading":
+            - generic [ref=e75]: Cargando...
+          - status "Loading":
+            - generic [ref=e76]: Cargando...
+          - status "Loading":
+            - generic [ref=e77]: Cargando...
+          - generic:
+            - status "Loading":
+              - generic [ref=e78]: Cargando...
+            - status "Loading":
+              - generic [ref=e79]: Cargando...
+        - generic [ref=e80]:
+          - status "Loading":
+            - generic [ref=e81]: Cargando...
+          - status "Loading":
+            - generic [ref=e82]: Cargando...
+          - status "Loading":
+            - generic [ref=e83]: Cargando...
+          - status "Loading":
+            - generic [ref=e84]: Cargando...
+          - status "Loading":
+            - generic [ref=e85]: Cargando...
+          - generic:
+            - status "Loading":
+              - generic [ref=e86]: Cargando...
+            - status "Loading":
+              - generic [ref=e87]: Cargando...
+        - generic [ref=e88]:
+          - status "Loading":
+            - generic [ref=e89]: Cargando...
+          - status "Loading":
+            - generic [ref=e90]: Cargando...
+          - status "Loading":
+            - generic [ref=e91]: Cargando...
+          - status "Loading":
+            - generic [ref=e92]: Cargando...
+          - status "Loading":
+            - generic [ref=e93]: Cargando...
+          - generic:
+            - status "Loading":
+              - generic [ref=e94]: Cargando...
+            - status "Loading":
+              - generic [ref=e95]: Cargando...
+        - generic [ref=e96]:
+          - status "Loading":
+            - generic [ref=e97]: Cargando...
+          - status "Loading":
+            - generic [ref=e98]: Cargando...
+          - status "Loading":
+            - generic [ref=e99]: Cargando...
+          - status "Loading":
+            - generic [ref=e100]: Cargando...
+          - status "Loading":
+            - generic [ref=e101]: Cargando...
+          - generic:
+            - status "Loading":
+              - generic [ref=e102]: Cargando...
+            - status "Loading":
+              - generic [ref=e103]: Cargando...
+        - generic [ref=e104]:
+          - status "Loading":
+            - generic [ref=e105]: Cargando...
+          - status "Loading":
+            - generic [ref=e106]: Cargando...
+          - status "Loading":
+            - generic [ref=e107]: Cargando...
+          - status "Loading":
+            - generic [ref=e108]: Cargando...
+          - status "Loading":
+            - generic [ref=e109]: Cargando...
+          - generic:
+            - status "Loading":
+              - generic [ref=e110]: Cargando...
+            - status "Loading":
+              - generic [ref=e111]: Cargando...
+  - contentinfo [ref=e112]:
+    - generic [ref=e113]:
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - heading "Club" [level=3] [ref=e116]
+          - list [ref=e117]:
+            - listitem [ref=e118]:
+              - link "Historia" [ref=e119] [cursor=pointer]:
+                - /url: /historia
+            - listitem [ref=e120]:
+              - link "Estadio" [ref=e121] [cursor=pointer]:
+                - /url: /estadio
+            - listitem [ref=e122]:
+              - link "Contacto" [ref=e123] [cursor=pointer]:
+                - /url: /contacto
+            - listitem [ref=e124]:
+              - link "Prensa" [ref=e125] [cursor=pointer]:
+                - /url: /prensa
+        - generic [ref=e126]:
+          - heading "Equipo" [level=3] [ref=e127]
+          - list [ref=e128]:
+            - listitem [ref=e129]:
+              - link "Plantilla" [ref=e130] [cursor=pointer]:
+                - /url: /plantilla
+            - listitem [ref=e131]:
+              - link "Formación" [ref=e132] [cursor=pointer]:
+                - /url: /formacion
+            - listitem [ref=e133]:
+              - link "Cuerpo Técnico" [ref=e134] [cursor=pointer]:
+                - /url: /cuerpo-tecnico
+        - generic [ref=e135]:
+          - heading "Afición" [level=3] [ref=e136]
+          - list [ref=e137]:
+            - listitem [ref=e138]:
+              - link "Entradas" [ref=e139] [cursor=pointer]:
+                - /url: /entradas
+            - listitem [ref=e140]:
+              - link "Socios" [ref=e141] [cursor=pointer]:
+                - /url: /socios
+            - listitem [ref=e142]:
+              - link "Noticias" [ref=e143] [cursor=pointer]:
+                - /url: /noticias
+        - generic [ref=e144]:
+          - heading "Legal" [level=3] [ref=e145]
+          - list [ref=e146]:
+            - listitem [ref=e147]:
+              - link "Términos y Condiciones" [ref=e148] [cursor=pointer]:
+                - /url: /terminos
+            - listitem [ref=e149]:
+              - link "Privacidad" [ref=e150] [cursor=pointer]:
+                - /url: /privacidad
+            - listitem [ref=e151]:
+              - link "Cookies" [ref=e152] [cursor=pointer]:
+                - /url: /cookies
+      - generic [ref=e153]:
+        - link "Facebook" [ref=e154] [cursor=pointer]:
+          - /url: https://facebook.com/AntimonioFC
+          - img [ref=e155]
+        - link "Instagram" [ref=e157] [cursor=pointer]:
+          - /url: https://instagram.com/AntimonioFC
+          - img [ref=e158]
+        - link "Twitter / X" [ref=e161] [cursor=pointer]:
+          - /url: https://twitter.com/AntimonioFC
+          - img [ref=e162]
+        - link "YouTube" [ref=e165] [cursor=pointer]:
+          - /url: https://youtube.com/@AntimonioFC
+          - img [ref=e166]
+      - img "AntimonioFC" [ref=e170]
+      - generic [ref=e171]: © 2026 Club Deportivo AntimonioFC. Todos los derechos reservados.

@@ -1,0 +1,152 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "AntimonioFC AntimonioFC" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "AntimonioFC" [ref=e7]
+        - generic [ref=e8]: AntimonioFC
+      - navigation [ref=e9]:
+        - link "Inicio" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+          - generic [ref=e14]: Inicio
+        - link "Plantilla" [ref=e15] [cursor=pointer]:
+          - /url: /plantilla
+          - img [ref=e16]
+          - generic [ref=e21]: Plantilla
+        - link "Formación" [ref=e22] [cursor=pointer]:
+          - /url: /formacion
+          - img [ref=e23]
+          - generic [ref=e28]: Formación
+        - link "Noticias" [ref=e29] [cursor=pointer]:
+          - /url: /noticias
+          - img [ref=e30]
+          - generic [ref=e33]: Noticias
+        - link "Entradas" [ref=e34] [cursor=pointer]:
+          - /url: /entradas
+          - img [ref=e35]
+          - generic [ref=e37]: Entradas
+        - link "Socios" [ref=e38] [cursor=pointer]:
+          - /url: /socios
+          - img [ref=e39]
+          - generic [ref=e41]: Socios
+        - link "Fichajes" [ref=e42] [cursor=pointer]:
+          - /url: /fichajes
+          - img [ref=e43]
+          - generic [ref=e46]: Fichajes
+      - link "Hazte Socio" [ref=e48] [cursor=pointer]:
+        - /url: /socios
+  - main [ref=e49]:
+    - generic [ref=e51]:
+      - heading "NOTICIAS" [level=1] [ref=e52]
+      - paragraph [ref=e53]: Mantente al tanto de las últimas novedades del club
+    - generic [ref=e55]:
+      - tablist "Filtrar por categoría" [ref=e57]:
+        - tab "Todas" [ref=e58]
+        - tab "Partidos" [ref=e59]
+        - tab "Fichajes" [active] [selected] [ref=e60]
+        - tab "Club" [ref=e61]
+        - tab "Entrevistas" [ref=e62]
+      - generic [ref=e172]:
+        - link "📰 Fichajes AntimonioFC ficha a promesa argentina Ignacio Palma El mediocampista de 24 años llega como agente libre desde River Plate y firma por 3 temporadas. Extraído de El Deportivo hace 10 horas" [ref=e173] [cursor=pointer]:
+          - /url: /noticias/1
+          - generic [ref=e174]:
+            - generic [ref=e177]: 📰
+            - generic [ref=e178]:
+              - generic [ref=e179]: Fichajes
+              - heading "AntimonioFC ficha a promesa argentina Ignacio Palma" [level=3] [ref=e180]
+              - paragraph [ref=e181]: El mediocampista de 24 años llega como agente libre desde River Plate y firma por 3 temporadas.
+              - generic [ref=e182]:
+                - generic [ref=e183]: Extraído de El Deportivo
+                - generic [ref=e184]: hace 10 horas
+        - 'link "📰 Fichajes Mercado de pases: AntimonioFC busca un defensa central experimentado La dirigencia ya trabaja en el próximo fichaje para reforzar la zaga central de cara al segundo semestre. Extraído de Radio Cooperativa hace 16 días" [ref=e185] [cursor=pointer]':
+          - /url: /noticias/9
+          - generic [ref=e186]:
+            - generic [ref=e189]: 📰
+            - generic [ref=e190]:
+              - generic [ref=e191]: Fichajes
+              - 'heading "Mercado de pases: AntimonioFC busca un defensa central experimentado" [level=3] [ref=e192]'
+              - paragraph [ref=e193]: La dirigencia ya trabaja en el próximo fichaje para reforzar la zaga central de cara al segundo semestre.
+              - generic [ref=e194]:
+                - generic [ref=e195]: Extraído de Radio Cooperativa
+                - generic [ref=e196]: hace 16 días
+        - link "📰 Fichajes AntimonioFC cierra la contratación de volante uruguayo Santiago Méndez, mediocampista de 26 años, llega procedente de Nacional de Montevideo por las próximas 4 temporadas. Extraído de Radio Cooperativa hace 26 días" [ref=e197] [cursor=pointer]:
+          - /url: /noticias/13
+          - generic [ref=e198]:
+            - generic [ref=e201]: 📰
+            - generic [ref=e202]:
+              - generic [ref=e203]: Fichajes
+              - heading "AntimonioFC cierra la contratación de volante uruguayo" [level=3] [ref=e204]
+              - paragraph [ref=e205]: Santiago Méndez, mediocampista de 26 años, llega procedente de Nacional de Montevideo por las próximas 4 temporadas.
+              - generic [ref=e206]:
+                - generic [ref=e207]: Extraído de Radio Cooperativa
+                - generic [ref=e208]: hace 26 días
+  - contentinfo [ref=e112]:
+    - generic [ref=e113]:
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - heading "Club" [level=3] [ref=e116]
+          - list [ref=e117]:
+            - listitem [ref=e118]:
+              - link "Historia" [ref=e119] [cursor=pointer]:
+                - /url: /historia
+            - listitem [ref=e120]:
+              - link "Estadio" [ref=e121] [cursor=pointer]:
+                - /url: /estadio
+            - listitem [ref=e122]:
+              - link "Contacto" [ref=e123] [cursor=pointer]:
+                - /url: /contacto
+            - listitem [ref=e124]:
+              - link "Prensa" [ref=e125] [cursor=pointer]:
+                - /url: /prensa
+        - generic [ref=e126]:
+          - heading "Equipo" [level=3] [ref=e127]
+          - list [ref=e128]:
+            - listitem [ref=e129]:
+              - link "Plantilla" [ref=e130] [cursor=pointer]:
+                - /url: /plantilla
+            - listitem [ref=e131]:
+              - link "Formación" [ref=e132] [cursor=pointer]:
+                - /url: /formacion
+            - listitem [ref=e133]:
+              - link "Cuerpo Técnico" [ref=e134] [cursor=pointer]:
+                - /url: /cuerpo-tecnico
+        - generic [ref=e135]:
+          - heading "Afición" [level=3] [ref=e136]
+          - list [ref=e137]:
+            - listitem [ref=e138]:
+              - link "Entradas" [ref=e139] [cursor=pointer]:
+                - /url: /entradas
+            - listitem [ref=e140]:
+              - link "Socios" [ref=e141] [cursor=pointer]:
+                - /url: /socios
+            - listitem [ref=e142]:
+              - link "Noticias" [ref=e143] [cursor=pointer]:
+                - /url: /noticias
+        - generic [ref=e144]:
+          - heading "Legal" [level=3] [ref=e145]
+          - list [ref=e146]:
+            - listitem [ref=e147]:
+              - link "Términos y Condiciones" [ref=e148] [cursor=pointer]:
+                - /url: /terminos
+            - listitem [ref=e149]:
+              - link "Privacidad" [ref=e150] [cursor=pointer]:
+                - /url: /privacidad
+            - listitem [ref=e151]:
+              - link "Cookies" [ref=e152] [cursor=pointer]:
+                - /url: /cookies
+      - generic [ref=e153]:
+        - link "Facebook" [ref=e154] [cursor=pointer]:
+          - /url: https://facebook.com/AntimonioFC
+          - img [ref=e155]
+        - link "Instagram" [ref=e157] [cursor=pointer]:
+          - /url: https://instagram.com/AntimonioFC
+          - img [ref=e158]
+        - link "Twitter / X" [ref=e161] [cursor=pointer]:
+          - /url: https://twitter.com/AntimonioFC
+          - img [ref=e162]
+        - link "YouTube" [ref=e165] [cursor=pointer]:
+          - /url: https://youtube.com/@AntimonioFC
+          - img [ref=e166]
+      - img "AntimonioFC" [ref=e170]
+      - generic [ref=e171]: © 2026 Club Deportivo AntimonioFC. Todos los derechos reservados.

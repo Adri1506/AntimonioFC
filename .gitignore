@@ -1,0 +1,22 @@
+node_modules/
+.env
+dist/
+.prisma/
+*.db
+*.sqlite
+.DS_Store
+Thumbs.db
+
+# Build / output
+outputs/
+
+# Playwright test artifacts
+playwright-report/
+test-results/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+*.log

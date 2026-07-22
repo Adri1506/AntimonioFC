@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #000080;
+  --color-primary-light: #1a1a9e;
+  --color-primary-dark: #000052;
+  --color-accent: #FF6500;
+  --color-accent-light: #ff8533;
+  --color-accent-dark: #cc5200;
+  --color-secondary: #F8F9FA;
+  --color-secondary-dark: #E9ECEF;
+  --color-surface: #FFFFFF;
+  --color-text: #1A1A2E;
+  --color-text-secondary: #6B7280;
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-error: #EF4444;
+  --color-info: #3B82F6;
+  --gradient-hero: linear-gradient(135deg, #000080 0%, #1a1a9e 100%);
+  --gradient-accent: linear-gradient(135deg, #FF6500 0%, #ff8533 100%);
+  --gradient-card: linear-gradient(135deg, #F8F9FA 0%, #FFFFFF 100%);
+  --gradient-dark: linear-gradient(135deg, #000052 0%, #000080 100%);
+  --font-heading: "Barlow", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-number: "Barlow Condensed", sans-serif;
+}
+
+:root {
+  --color-primary: #000080;
+  --color-primary-light: #1a1a9e;
+  --color-primary-dark: #000052;
+  --color-accent: #FF6500;
+  --color-accent-light: #ff8533;
+  --color-accent-dark: #cc5200;
+  --color-secondary: #F8F9FA;
+  --color-secondary-dark: #E9ECEF;
+  --color-surface: #FFFFFF;
+  --color-text: #1A1A2E;
+  --color-text-secondary: #6B7280;
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-error: #EF4444;
+  --color-info: #3B82F6;
+  --gradient-hero: linear-gradient(135deg, #000080 0%, #1a1a9e 100%);
+  --gradient-accent: linear-gradient(135deg, #FF6500 0%, #ff8533 100%);
+  --gradient-card: linear-gradient(135deg, #F8F9FA 0%, #FFFFFF 100%);
+  --gradient-dark: linear-gradient(135deg, #000052 0%, #000080 100%);
+  --font-heading: "Barlow", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-number: "Barlow Condensed", sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  margin: 0;
+  position: relative;
+}
+
+/* Fondo de página: mosaico de hinchas con capa de oscuridad */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background-image: url('/img/mosaicoHinchas.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-color: rgba(0, 0, 30, 0.75);
+}
+
+#root {
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+/* Tipografía utilitaria */
+@utility heading-1 {
+  font-family: var(--font-heading);
+  font-size: 3.5rem;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+@utility heading-2 {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+@utility heading-3 {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+@utility heading-4 {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+@utility heading-5 {
+  font-family: var(--font-body);
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+/* Animaciones de estado */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@utility animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--color-secondary-dark) 25%,
+    var(--color-primary-light) 50%,
+    var(--color-secondary-dark) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s linear infinite;
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@utility animate-slide-up {
+  animation: slide-up 0.3s ease-out;
+}

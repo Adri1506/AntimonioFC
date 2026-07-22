@@ -1,0 +1,166 @@
+- generic [ref=e248]:
+  - banner [ref=e249]:
+    - generic [ref=e250]:
+      - link "AntimonioFC AntimonioFC" [ref=e251] [cursor=pointer]:
+        - /url: /
+        - img "AntimonioFC" [ref=e252]
+        - generic [ref=e253]: AntimonioFC
+      - navigation [ref=e254]:
+        - link "Inicio" [ref=e255] [cursor=pointer]:
+          - /url: /
+          - img [ref=e256]
+          - generic [ref=e259]: Inicio
+        - link "Plantilla" [ref=e260] [cursor=pointer]:
+          - /url: /plantilla
+          - img [ref=e261]
+          - generic [ref=e266]: Plantilla
+        - link "Formación" [ref=e267] [cursor=pointer]:
+          - /url: /formacion
+          - img [ref=e268]
+          - generic [ref=e273]: Formación
+        - link "Noticias" [ref=e274] [cursor=pointer]:
+          - /url: /noticias
+          - img [ref=e275]
+          - generic [ref=e278]: Noticias
+        - link "Entradas" [ref=e279] [cursor=pointer]:
+          - /url: /entradas
+          - img [ref=e280]
+          - generic [ref=e282]: Entradas
+        - link "Socios" [ref=e283] [cursor=pointer]:
+          - /url: /socios
+          - img [ref=e284]
+          - generic [ref=e286]: Socios
+        - link "Fichajes" [ref=e287] [cursor=pointer]:
+          - /url: /fichajes
+          - img [ref=e288]
+          - generic [ref=e291]: Fichajes
+      - link "Hazte Socio" [ref=e293] [cursor=pointer]:
+        - /url: /socios
+  - main [ref=e294]:
+    - article [ref=e295]:
+      - navigation [ref=e298]:
+        - link "Home" [ref=e299] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e300]: /
+        - link "Noticias" [ref=e301] [cursor=pointer]:
+          - /url: /noticias
+        - generic [ref=e302]: /
+        - generic [ref=e303]: AntimonioFC ficha a promesa argentina Ignacio Palma
+      - generic [ref=e305]:
+        - img [ref=e308]
+        - generic [ref=e311]: Fichajes
+        - heading "AntimonioFC ficha a promesa argentina Ignacio Palma" [level=1] [ref=e312]
+        - generic [ref=e313]:
+          - generic [ref=e314]:
+            - img [ref=e315]
+            - text: 14 de julio de 2026
+          - generic [ref=e317]: Extraído de El Deportivo
+        - generic [ref=e318]:
+          - paragraph [ref=e319]: En un movimiento que ilusiona a la hinchada, Club Deportivo AntimonioFC anunció el fichaje de Ignacio Palma, mediocampista ofensivo de 24 años proveniente de River Plate. El jugador argentino llega con el pase en su poder tras finalizar su contrato con el club millonario.
+          - paragraph [ref=e320]: Palma, quien puede desempeñarse como mediocampista central o volante ofensivo, firmó un contrato por tres temporadas con opción a una cuarta. "Estoy muy feliz de llegar a AntimonioFC. Es un club con mucha historia y una hinchada increíble. Voy a dar todo por esta camiseta", declaró el jugador en su presentación.
+          - paragraph [ref=e321]: "El técnico Eduardo Zamorano destacó la versatilidad del nuevo refuerzo: \"Ignacio es un jugador con gran visión de juego y llegada al arco. Nos dará muchas opciones en el mediocampo y estamos seguros de que se adaptará rápidamente al fútbol chileno\"."
+          - paragraph [ref=e322]: Con esta incorporación, AntimonioFC suma su tercer refuerzo para la temporada 2026, buscando consolidarse en los puestos de avanzada del Campeonato Nacional.
+        - link "Ver fuente original" [ref=e324] [cursor=pointer]:
+          - /url: https://ejemplo.com/noticia1
+          - button "Ver fuente original" [ref=e325]:
+            - img
+            - text: Ver fuente original
+        - link "Volver a noticias" [ref=e327] [cursor=pointer]:
+          - /url: /noticias
+          - button "Volver a noticias" [ref=e328]:
+            - img
+            - text: Volver a noticias
+      - generic [ref=e330]:
+        - heading "NOTICIAS RELACIONADAS" [level=2] [ref=e331]
+        - generic [ref=e332]:
+          - link "📰 Club AntimonioFC inaugura nueva escuela de fútbol juvenil Más de 200 niños participaron en la inauguración de la nueva escuela de fútbol del club en la comuna de Maipú. Extraído de La Tercera hace 2 días" [ref=e333] [cursor=pointer]:
+            - /url: /noticias/2
+            - generic [ref=e334]:
+              - generic [ref=e337]: 📰
+              - generic [ref=e338]:
+                - generic [ref=e339]: Club
+                - heading "AntimonioFC inaugura nueva escuela de fútbol juvenil" [level=3] [ref=e340]
+                - paragraph [ref=e341]: Más de 200 niños participaron en la inauguración de la nueva escuela de fútbol del club en la comuna de Maipú.
+                - generic [ref=e342]:
+                  - generic [ref=e343]: Extraído de La Tercera
+                  - generic [ref=e344]: hace 2 días
+          - link "📰 Partidos Triunfo agónico en la fecha 15 del Campeonato Nacional AntimonioFC derrotó 2-1 a Deportes Iquique con un gol en el minuto 90+3. El equipo sigue en la parte alta de la tabla. Extraído de ADN Radio hace 3 días" [ref=e345] [cursor=pointer]:
+            - /url: /noticias/3
+            - generic [ref=e346]:
+              - generic [ref=e349]: 📰
+              - generic [ref=e350]:
+                - generic [ref=e351]: Partidos
+                - heading "Triunfo agónico en la fecha 15 del Campeonato Nacional" [level=3] [ref=e352]
+                - paragraph [ref=e353]: AntimonioFC derrotó 2-1 a Deportes Iquique con un gol en el minuto 90+3. El equipo sigue en la parte alta de la tabla.
+                - generic [ref=e354]:
+                  - generic [ref=e355]: Extraído de ADN Radio
+                  - generic [ref=e356]: hace 3 días
+  - contentinfo [ref=e357]:
+    - generic [ref=e358]:
+      - generic [ref=e359]:
+        - generic [ref=e360]:
+          - heading "Club" [level=3] [ref=e361]
+          - list [ref=e362]:
+            - listitem [ref=e363]:
+              - link "Historia" [ref=e364] [cursor=pointer]:
+                - /url: /historia
+            - listitem [ref=e365]:
+              - link "Estadio" [ref=e366] [cursor=pointer]:
+                - /url: /estadio
+            - listitem [ref=e367]:
+              - link "Contacto" [ref=e368] [cursor=pointer]:
+                - /url: /contacto
+            - listitem [ref=e369]:
+              - link "Prensa" [ref=e370] [cursor=pointer]:
+                - /url: /prensa
+        - generic [ref=e371]:
+          - heading "Equipo" [level=3] [ref=e372]
+          - list [ref=e373]:
+            - listitem [ref=e374]:
+              - link "Plantilla" [ref=e375] [cursor=pointer]:
+                - /url: /plantilla
+            - listitem [ref=e376]:
+              - link "Formación" [ref=e377] [cursor=pointer]:
+                - /url: /formacion
+            - listitem [ref=e378]:
+              - link "Cuerpo Técnico" [ref=e379] [cursor=pointer]:
+                - /url: /cuerpo-tecnico
+        - generic [ref=e380]:
+          - heading "Afición" [level=3] [ref=e381]
+          - list [ref=e382]:
+            - listitem [ref=e383]:
+              - link "Entradas" [ref=e384] [cursor=pointer]:
+                - /url: /entradas
+            - listitem [ref=e385]:
+              - link "Socios" [ref=e386] [cursor=pointer]:
+                - /url: /socios
+            - listitem [ref=e387]:
+              - link "Noticias" [ref=e388] [cursor=pointer]:
+                - /url: /noticias
+        - generic [ref=e389]:
+          - heading "Legal" [level=3] [ref=e390]
+          - list [ref=e391]:
+            - listitem [ref=e392]:
+              - link "Términos y Condiciones" [ref=e393] [cursor=pointer]:
+                - /url: /terminos
+            - listitem [ref=e394]:
+              - link "Privacidad" [ref=e395] [cursor=pointer]:
+                - /url: /privacidad
+            - listitem [ref=e396]:
+              - link "Cookies" [ref=e397] [cursor=pointer]:
+                - /url: /cookies
+      - generic [ref=e398]:
+        - link "Facebook" [ref=e399] [cursor=pointer]:
+          - /url: https://facebook.com/AntimonioFC
+          - img [ref=e400]
+        - link "Instagram" [ref=e402] [cursor=pointer]:
+          - /url: https://instagram.com/AntimonioFC
+          - img [ref=e403]
+        - link "Twitter / X" [ref=e406] [cursor=pointer]:
+          - /url: https://twitter.com/AntimonioFC
+          - img [ref=e407]
+        - link "YouTube" [ref=e410] [cursor=pointer]:
+          - /url: https://youtube.com/@AntimonioFC
+          - img [ref=e411]
+      - img "AntimonioFC" [ref=e415]
+      - generic [ref=e416]: © 2026 Club Deportivo AntimonioFC. Todos los derechos reservados.
