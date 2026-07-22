@@ -11,10 +11,16 @@ for (const envVar of requiredEnvVars) {
   }
 }
 
-import app from './app'
+// Import dinámico: asegura que dotenv.config() se ejecute ANTES
+// de que se carguen los módulos (jwt.ts, etc.) que dependen de process.env
+async function start() {
+  const { default: app } = await import('./app')
 
-const PORT = process.env.PORT || 3001
+  const PORT = process.env.PORT || 3001
 
-app.listen(PORT, () => {
-  console.log(`🚀 Backend running on http://localhost:${PORT}`)
-})
+  app.listen(PORT, () => {
+    console.log(`🚀 Backend running on http://localhost:${PORT}`)
+  })
+}
+
+start().catch(console.error)
